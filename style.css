@@ -66,3 +66,28 @@ img {
   align-items: start;
   padding: 10px;
 }
+#time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  gap: 4px;
+}
+#start,
+#stop,
+#resume {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 20px;
+}
+#start:hover {
+  transition: 0.4s;
+  cursor: no-drop;
+  border: none;
+  background-color: skyblue;
+  border-radius: 6px;
+  text-decoration: line-through;
+  transform: scale(1.1);
+}
